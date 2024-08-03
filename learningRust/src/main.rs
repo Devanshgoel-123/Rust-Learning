@@ -1,12 +1,16 @@
 fn main() {
-    let mut is_Male: bool = true;
-    let is_above18: bool = true;
-    if (is_Male) {
-        println!("You are a male");
-    } else {
-        println!("You arent a male");
+    let sentence: String = String::from("my name is Devnash");
+    let first_word: String = get_first_word(sentence);
+    println!("The first word is: {}", first_word);
+}
+
+fn get_first_word(sentence: String) -> String {
+    let mut answer: String = String::from("");
+    for char in sentence.chars() {
+        if char == ' ' {
+            break;
+        }
+        answer.push(char);
     }
-    if (is_above18 && is_Male) {
-        println!("You are a legal male");
-    }
+    answer
 }
