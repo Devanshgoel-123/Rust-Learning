@@ -26,7 +26,7 @@ fn update_string() {
     println!("Before update: {}", s);
     println!(
         "Capacity:{},Length:{},pointer:{:p}",
-        s.capacity(),
+        s.Capacity(),
         s.len(),
         s.as_ptr()
     );
@@ -36,7 +36,7 @@ fn update_string() {
     println!("After update: {}", s);
     println!(
         "Capacity:{},Length:{},pointer:{:p}",
-        s.capacity(),
+        s.Capacity(),
         s.len(),
         s.as_ptr()
     );
