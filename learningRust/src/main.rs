@@ -1,5 +1,6 @@
-pub mod traits;
-pub use crate::traits::create_person; //This of the type crate::FileName::functionName
+pub mod helpers;
+//This of the type crate::FileName::functionName
 fn main() {
-    create_person();
+    let answer = helpers::name_helpers::get_fullname("Devansh".to_string(), "Goel".to_string());
+    println!("Hello to {}", answer);
 }
