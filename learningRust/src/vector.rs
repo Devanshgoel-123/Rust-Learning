@@ -1,9 +1,8 @@
 pub mod vectors_learning {
-    use core::str;
 
     pub fn test_vec_int() {
         let mut my_ints: Vec<i32> = Vec::new(); //necessary to specify type so rust knows what type is stored here
-        let mut my_ints2 = vec![1, 2, 3, 4, 5];
+        let _my_ints2 = vec![1, 2, 3, 4, 5];
         my_ints.push(2);
         my_ints.push(3);
 

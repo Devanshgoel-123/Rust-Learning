@@ -1,5 +1,7 @@
+pub mod dateAndTime;
 pub mod hashmap;
 pub mod helpers;
+pub mod my_iters;
 pub mod vector;
 // #[dead_code]
 // use vector::vectors_learning;
@@ -10,5 +12,7 @@ fn main() {
     // vectors_learning::test_vec_int();
     // vectors_learning::test_vec_string();
     // vectors_learning::test_vec_car();
-    hashmap::test_hashmap();
+    // hashmap::test_hashmap();
+    // my_iters::rust_iterators();
+    dateAndTime::test_std_time();
 }

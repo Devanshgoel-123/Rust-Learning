@@ -14,6 +14,6 @@ pub fn test_hashmap() {
     println!("{:?}", stock_list);
 }
 
-pub fn test_hash_set() {
-    let mut planet_list: HashSet<&str> = HashSet::from(["Mercedes", "Lamborghini", "Porsche"]);
-}
+// pub fn test_hash_set() {
+//     let mut planet_list: HashSet<&str> = HashSet::from(["Mercedes", "Lamborghini", "Porsche"]);
+// }
