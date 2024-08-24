@@ -4,6 +4,7 @@ pub mod Threads;
 pub mod dateAndTime;
 pub mod hashmap;
 pub mod helpers;
+pub mod mpsc;
 pub mod my_iters;
 pub mod vector;
 // #[dead_code]
@@ -22,5 +23,6 @@ fn main() {
     // Threads::spawn_thread();
     // Threads::test_thread_variables();
     //Closures::test_closures();
-    Mutex::test_mutex();
+    //Mutex::test_mutex();
+    mpsc::test_mpsc();
 }
