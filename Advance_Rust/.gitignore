@@ -1,0 +1,40 @@
+# Rust build
+/target/
+
+# Rust/Cargo
+**/*.rs.bk
+**/*.rs.orig
+
+# Ignore lock file
+/Cargo.lock
+
+# If you're using a tool like Cargo Clippy
+/clippy.toml
+
+# IDEs and editors
+.idea/
+/.vscode/
+/*.code-workspace
+
+# Node.js dependencies (if you're using a frontend framework)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.lock
+*~
+
+# Coverage
+coverage/
+*.lcov
+
+# Other
+*.log
